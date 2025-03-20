@@ -3,27 +3,27 @@
         "id": "1",
         "name": "Oaxaca",
         "description": "lorem ipsum dolor sit amet",
-        "image": "static/images/products/oaxaca.webp"
+        "image": "/images/products/oaxaca.webp"
     },
 
     {
         "id": "2",
         "name": "Chiapas",
         "description": "lorem ipsum dolor sit amet",
-        "image": "static/images/products/oaxaca.webp"
+        "image": "/images/products/oaxaca.webp"
     },
 
     {
         "id": "3",
         "name": "Guerrero",
         "description": "lorem ipsum dolor sit amet",
-        "image": "static/images/products/oaxaca.webp"
+        "image": "/images/products/oaxaca.webp"
     },
 
     {
         "id": "4",
         "name": "Puebla",
         "description": "lorem ipsum dolor sit amet",
-        "image": "static/images/products/oaxaca.webp"
+        "image": "/images/products/oaxaca.webp"
     }
 ]
