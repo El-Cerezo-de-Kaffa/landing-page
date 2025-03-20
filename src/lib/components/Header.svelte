@@ -1,11 +1,11 @@
-<div class="w-full h-[15vh] bg-primary border-b-[20px] border-secondary py-4">
-    <div class="flex items-center justify-center h-full">
+<div class="w-full h-[15vh] bg-primary border-b-[20px] border-secondary py-4 px-20">
+    <div class="flex items-center h-full">
         <!-- Contenedor del Logo -->
-        <div class="w-1/4 flex justify-center items-center hover:cursor-pointer" id="header-logo">
+        <div class="flex w-96 justify-center items-center hover:cursor-pointer" id="header-logo">
             <img class="h-[130px]" src="/logo.png" alt="logo">
         </div>
         <!-- Contenedor de la Navegación -->
-        <div class="flex items-center justify-around w-3/4 text-white">
+        <div class="flex w-full items-center justify-around text-white">
             <!-- Nosotros -->
             <p class="text-[40px] font-PlayFair group relative" id="header-nosotros">
                 <span class="relative hover:cursor-pointer">Nosotros</span>
