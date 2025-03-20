@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
-body {
-    font-family: 'Playfair Display', serif;
-  }
+@theme {
+  --color-primary: #16251F;
+  --color-secondary: #a68c4f;
+  --color-bgColor: #efefef;
+
+  --font-PlayFair: 'Playfair Display', serif;
+}
