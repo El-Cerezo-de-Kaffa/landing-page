@@ -34,5 +34,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"@fontsource/playfair-display": "^5.2.5"
 	}
 }
