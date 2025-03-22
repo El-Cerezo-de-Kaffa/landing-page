@@ -1,8 +1,8 @@
-<div class="w-full h-[15vh] bg-primary border-b-[20px] border-secondary py-4 px-20">
+<div class="w-full h-[15vh] bg-primary border-b-[20px] border-secondary px-20">
     <div class="flex items-center h-full">
         <!-- Contenedor del Logo -->
-        <div class="flex w-96 justify-center items-center hover:cursor-pointer" id="header-logo">
-            <img class="h-[130px]" src="/logo.png" alt="logo">
+        <div class="flex w-96 justify-center items-center hover:cursor-pointer " id="header-logo">
+            <img class="h-30" src="/logo.png" alt="logo">
         </div>
         <!-- Contenedor de la Navegación -->
         <div class="flex w-full items-center justify-around text-white">
