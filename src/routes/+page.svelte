@@ -4,13 +4,16 @@
         Hero,
         Products,
         WhyCerezo,
-        Footer
+        Footer,
+        Building
     } from '$lib'
 </script>
 
-<Header />
+<Building />
+
+<!-- <Header />
 <Hero />
 <Products />
 <WhyCerezo />
-<Footer />
+<Footer /> -->
 
