@@ -36,6 +36,7 @@
 		]
 	},
 	"dependencies": {
-		"@fontsource/playfair-display": "^5.2.5"
+		"@fontsource/playfair-display": "^5.2.5",
+		"@lucide/svelte": "^0.483.0"
 	}
 }
