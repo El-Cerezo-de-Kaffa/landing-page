@@ -41,7 +41,7 @@
             const formattedMinutes = String(minutes).padStart(2, "0");
             const formattedSeconds = String(seconds).padStart(2, "0");
 
-            timerElement.innerText = `${formattedDays} días ${formattedHours} horas ${formattedMinutes} minutos ${formattedSeconds} segundos`;
+            timerElement.innerText = `${formattedDays}d ${formattedHours}h ${formattedMinutes}m ${formattedSeconds}s`;
         }
 
         if (distance < 0) {
