@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { Facebook, Instagram, Mail } from "@lucide/svelte";
     import { onMount, onDestroy } from "svelte";
 
     // Fecha de lanzamiento
@@ -13,10 +14,11 @@
         launchDate.month - 1,
         launchDate.day,
     ).getTime();
+
     let interval: number;
 
     onMount(() => {
-        interval = setInterval(updateCountdown, 1000);
+        interval = setInterval(updateCountdown);
     });
 
     onDestroy(() => {
@@ -53,21 +55,46 @@
     }
 </script>
 
-<div class="flex flex-col h-screen w-screen items-center justify-center gap-10">
-    <div class="w-full flex flex-col items-center justify-center">
-        <img
-            src="/logoBW.png"
-            alt="logo"
-            class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto items-center justify-center"
-        />
+<div class="flex flex-col h-screen w-screen items-center justify-center">
+    <div class="w-full flex flex-col items-center justify-center gap-6 flex-2">
+        <div class="w-full flex flex-col items-center justify-center">
+            <img
+                src="/logoBW.png"
+                alt="logo"
+                class="w-1/2 md:w-1/3 lg:w-1/5 mx-auto items-center justify-center"
+            />
 
-        <h1
-            class="text-3xl md:text-4xl lg:text-5xl font-bold font-PlayFair -tracking-tighter"
-        >
-            Próximamente
-        </h1>
+            <h1
+                class="text-3xl md:text-4xl font-bold font-PlayFair -tracking-tighter"
+            >
+                Próximamente
+            </h1>
+        </div>
+        <div class="flex w-full justify-center">
+            <p class="text-3xl md:text-3xl lg:text-4xl" id="timer"></p>
+        </div>
     </div>
-    <div class="flex w-full justify-center">
-        <p class="text-2xl md:text-3xl lg:text-4xl" id="timer"></p>
+
+    <div
+        class="flex flex-1 flex-col w-screen justify-start lg:justify-center items-center"
+    >
+        <h2 class="text-2xl md:text-3xl">Redes sociales</h2>
+        <div class="flex gap-5 mt-6">
+            <a href="https://www.facebook.com/cerezokaffa" target="_blank"
+                ><Facebook
+                    class="w-8 h-8 hover:cursor-pointer hover:scale-125 transition"
+                /></a
+            >
+            <a href="https://www.instagram.com/cerezo.kaffa/" target="_blank"
+                ><Instagram
+                    class="w-8 h-8 hover:cursor-pointer hover:scale-125 transition"
+                /></a
+            >
+            <a href="mailto:contacto@cerezodekaffa.com"
+                ><Mail
+                    class="w-8 h-8 hover:cursor-pointer hover:scale-125 transition"
+                /></a
+            >
+        </div>
     </div>
 </div>
