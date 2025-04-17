@@ -9,10 +9,10 @@
     } from '$lib'
 </script>
 
-<Building />
+<!-- <Building /> -->
 
-<!-- <Header />
-<Hero />
+<Header />
+<!-- <Hero />
 <Products />
 <WhyCerezo />
 <Footer /> -->
