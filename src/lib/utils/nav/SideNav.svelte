@@ -4,7 +4,7 @@
     import NavSection from "./components/NavSection.svelte";
 </script>
 
-<div class="md:hidden bg-bgColor absolute top-0 right-0 h-full w-screen">
+<div class="lg:hidden bg-bgColor absolute top-0 right-0 h-full w-screen">
     <NavHeader />
     <NavSection />
     <NavFooter />
