@@ -1,7 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { Equal } from "@lucide/svelte";
-    import SideNav from "$lib/components/utils/SideNav.svelte"
+    import SideNav from "$lib/utils/nav/SideNav.svelte"
 
     let isMenuOpen = false;
 
