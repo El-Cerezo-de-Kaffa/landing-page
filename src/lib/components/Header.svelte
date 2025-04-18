@@ -10,7 +10,7 @@
         <img src="/logo.png" alt="logo" class="max-h-[125px] lg:ml-20">
     </div>
     <div class="lg:hidden flex items-center justify-end h-[100px] max-h[100px] w-[42%]">
-        <button class="hover:cursor-pointer flex items-center text-white gap-3 font-light" on:click={() => isMenuOpen.update(v => !v)}>
+        <button class="hover:cursor-pointer flex items-center text-[20px] text-white gap-3 font-light" on:click={() => isMenuOpen.set(true)}>
             <Equal class="text-bgColor w-8 h-8"/>
             MENÚ
         </button>

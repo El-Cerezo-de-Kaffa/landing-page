@@ -13,7 +13,7 @@
     </div>
     <div class="ml-auto flex items-center gap-2">
         <h1 class="font-extralight text-[18px]">MENÚ</h1>
-        <button class="hover:cursor-pointer" on:click={() => isMenuOpen.update(v => !v)}>
+        <button class="hover:cursor-pointer" on:click={() => isMenuOpen.set(false)}>
             <X class="w-5 h-5" />
         </button>
     </div>
