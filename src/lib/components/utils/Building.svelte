@@ -5,7 +5,7 @@
     // Fecha de lanzamiento
     const launchDate = {
         year: 2025,
-        month: 6, // 0 Enero, 11 Diciembre
+        month: 7, // 0 Enero, 11 Diciembre
         day: 1,
     };
 
