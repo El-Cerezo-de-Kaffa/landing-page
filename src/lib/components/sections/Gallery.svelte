@@ -1,0 +1,1 @@
+<h1 class="bg-white inline-block">Gallery</h1>
