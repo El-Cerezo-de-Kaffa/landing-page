@@ -1,1 +1,0 @@
-<h2>Por que Cerzo de Kaffa</h2>
