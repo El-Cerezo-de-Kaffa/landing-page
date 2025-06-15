@@ -9,10 +9,15 @@
                     Descubre el sabor de la <br/>excelencia. Pide tu café hoy.
                 </p>
             </div>
-            <button class="mt-[45px]  bg-golden w-[250px] py-1 text-center text-white font-bold text-2xl rounded-[5px] hover:cursor-pointer">
+            <button 
+                class="mt-[45px] bg-golden w-[250px] py-1 text-center text-white font-bold text-2xl rounded-[5px] hover:cursor-pointer hover:scale-[105%]">
                 Contáctanos
             </button>
         </div>
-         <img src="/images/hero/coffee_sack.png" alt="render ilustrativo de un saco de cafe" class="absolute bottom-0 right-12 h-[600px]">
+        <img 
+            src="/images/hero/coffee_sack.png" 
+            alt="render ilustrativo de un saco de cafe" 
+            class="absolute bottom-0 right-12 h-[600px]"
+        >
     </div>
 </div>
