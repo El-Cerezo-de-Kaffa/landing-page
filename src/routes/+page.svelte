@@ -11,16 +11,16 @@
 
 <Header />
 <main>
-    <section class="bg-green h-[calc(100vh-140px)] px-24 pt-[50px]">
+    <section class="bg-green h-[100vh] px-24 pt-[100px]">
         <Hero />
     </section>
-    <section class="h-[200vh] bg-amber-50 px-24 pt-[50px]">
+    <section class="h-[200vh] px-24 pt-[80px]">
         <Products />
     </section>
-    <section>
+    <section class="bg-green h-[100vh] px-24">
         <Advantage />
     </section>
-    <section>
+    <section class="h-[100vh] px-24">
         <Gallery />
     </section>
 </main>
