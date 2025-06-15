@@ -7,4 +7,7 @@ export { default as Products } from './components/sections/Products.svelte'
 export { default as Advantage } from './components/sections/Advantage.svelte'
 export { default as Gallery } from './components/sections/Gallery.svelte'
 
+export { default as NavBar } from "./components/ui/NavBar.svelte";
+export { default as Logotipo } from "./components/ui/Logotipo.svelte";
+
 // Utils
