@@ -11,16 +11,10 @@
 
 <Header />
 <main>
-    <Hero />
-    <section>
-        <Products />
-    </section>
-    <section>
-        <Advantage />
-    </section>
-    <section>
-        <Gallery />
-    </section>
+    <section><Hero /></section>
+    <section><Products /></section>
+    <section><Advantage /></section>
+    <section><Gallery /></section>
 </main>
 <Footer />
 
