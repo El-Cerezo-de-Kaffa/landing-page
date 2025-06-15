@@ -1,4 +1,4 @@
-<div class="flex h-full">
+<div class="flex h-full mt-24">
     <div>
         <h1 class="font-PlayFair text-white text-[120px] font-extrabold m-0 p-0 leading-none">Tradición,</h1>
         <h2 class="font-PlayFair text-white text-[110px] font-extrabold m-0 p-0 leading-none">Sabor,</h2>
