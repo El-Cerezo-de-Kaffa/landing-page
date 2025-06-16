@@ -11,7 +11,7 @@
 
 <Header />
 <main>
-    <section class="bg-green h-[100vh] px-24 pt-[100px]">
+    <section class="bg-green h-[100vh] px-24 pt-[80px]">
         <Hero />
     </section>
     <section class="h-[200vh] px-24 pt-[80px]">
