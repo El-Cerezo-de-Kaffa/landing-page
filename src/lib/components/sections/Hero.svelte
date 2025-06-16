@@ -10,7 +10,7 @@
         </div>
         <button 
             class="mt-[45px] bg-golden w-[250px] py-1 text-center text-white font-bold text-2xl rounded-[5px] tracking-wide border border-transparent
-            hover:cursor-pointer hover:bg-green hover:border-golden transition-all duration-100 hover:scale-105">
+            hover:cursor-pointer hover:bg-transparent hover:border-golden transition-all duration-100 hover:scale-105">
             Contáctanos
         </button>
     </div>

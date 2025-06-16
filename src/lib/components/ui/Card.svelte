@@ -10,7 +10,7 @@
     </div>
     <div class="flex justify-end mt-2">
         <button class="bg-golden font-Lato font-bold text-white w-[110px] py-1 rounded-[5px] tracking-wide border border-transparent
-            hover:cursor-pointer hover:bg-onix hover:border-golden transition-all duration-100 hover:scale-105">
+            hover:cursor-pointer hover:bg-transparent hover:border-golden transition-all duration-100 hover:scale-105">
             Ver más
         </button>
     </div>

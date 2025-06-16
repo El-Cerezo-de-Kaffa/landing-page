@@ -14,7 +14,7 @@
         </li>
         <li 
             class="bg-golden w-[150px] py-1 text-center rounded-[5px] border border-transparent
-            hover:cursor-pointer hover:bg-green hover:border-golden transition-all duration-100 hover:scale-105"
+            hover:cursor-pointer hover:bg-transparent hover:border-golden transition-all duration-100 hover:scale-105"
         >
             <a href="/#" class="text-white font-Lato font-bold text-2xl">Tienda</a>
         </li>
