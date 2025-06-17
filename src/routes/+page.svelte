@@ -17,7 +17,7 @@
     <section class="h-[210vh] px-24 mt-[100px]">
         <Products />
     </section>
-    <section class="bg-golden h-[100vh] px-24">
+    <section class="bg-green h-[100vh] px-24 py-[144px]">
         <Advantage />
     </section>
     <section class="h-[100vh] px-24">
