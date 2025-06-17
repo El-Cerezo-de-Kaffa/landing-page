@@ -1,7 +1,7 @@
-<div class="flex flex-col w-[520px] h-[580px] hover:cursor-pointer">
+<div class="flex flex-col w-[520px] h-[630px] hover:cursor-pointer">
     <div class="overflow-hidden">
         <img src="/images/products/ChiapasMockup.png" alt="Cafe de Chiapas"
-        class="w-full h-[480px] object-cover hover:scale-115 transition-all duration-500"
+        class="w-full h-[650px] object-cover -translate-y-20 hover:scale-115 transition-all duration-500"
         >
     </div>
     <div class="flex flex-col gap-2 mt-4">
