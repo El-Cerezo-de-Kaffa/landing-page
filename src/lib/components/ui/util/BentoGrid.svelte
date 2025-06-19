@@ -3,7 +3,9 @@
 </script>
 
 <div class="flex w-full items-center justify-center">
-    <div class="grid w-full grid-cols-2 grid-rows-2 gap-y-24">
+    <div 
+        class="grid w-full grid-cols-2 grid-rows-2 gap-y-24 
+        lg:gap-y-[70px] lg:gap-x-10">
         <div
             class="flex items-center justify-center"
         >

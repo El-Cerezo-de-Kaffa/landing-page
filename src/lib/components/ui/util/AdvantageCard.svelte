@@ -9,10 +9,18 @@
             <circle cx="50" cy="50" r="40" fill="goldenrod" />
         </svg>
     </div>
-    <div class="flex-[1]">
-        <p class="font-PlayFair font-bold text-3xl text-white tracking-wider">Café de altura</p>
+    <div class="flex-[1] lg:mt-2 lg:mb-2">
+        <p 
+            class="font-PlayFair font-bold text-3xl text-white tracking-wider
+            lg:text-[27px]">
+                Café de altura
+        </p>
     </div>
     <div class="flex-[3]">
-        <p class="font-Lato font-light text-2xl text-white tracking-wider">De microlotes seleccionados, <br />directo de caficultores <br />apasionados.</p>
+        <p 
+            class="font-Lato font-light text-2xl text-white tracking-wider
+            lg:text-[18px]">
+                De microlotes seleccionados, <br />directo de caficultores <br />apasionados.
+        </p>
     </div>
 </div>
