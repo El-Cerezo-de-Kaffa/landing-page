@@ -14,10 +14,10 @@
     <section class="bg-green h-[100vh] px-24 pt-[80px] 2xl:px-96 2xl:pt-60">
         <Hero />
     </section>
-    <section class="h-[210vh] px-24 mt-[100px] 2xl:px-96 2xl:pt-60">
+    <section class="h-[210vh] px-24 mt-[100px] 2xl:px-96 2xl:pt-60" id="Products-section">
         <Products />
     </section>
-    <section class="bg-green h-[100vh] px-24 py-[144px] 2xl:px-96 2xl:py-60">
+    <section class="bg-green h-[100vh] px-24 py-[144px] 2xl:px-96 2xl:py-60" id="Advantage-section">
         <Advantage />
     </section>
     <section class="h-[100vh] px-24 2xl:px-96">
@@ -25,8 +25,3 @@
     </section>
 </main>
 <Footer />
-
-
-
-
-
