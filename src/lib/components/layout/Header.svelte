@@ -1,12 +1,12 @@
 <script>
     import { Logotipo, NavBar } from "$lib";
+    import { Menu } from '@lucide/svelte';
 </script>
 
 <header 
-    class="px-24 bg-green h-[120px] content-center fixed top-0 left-0 right-0 z-10 
-    2xl:px-96 2xl:h-[200px] lg:h-[100px]">
-    <div class="flex justify-between items-center">
+    class="bg-green px-6 h-[80px] content-center fixed top-0 left-0 right-0 z-10">
+    <div class="flex h-full justify-between items-center">
         <Logotipo />
-        <NavBar />
+        <Menu class="text-golden w-[32px] h-[32px]"/>
     </div>
 </header>
