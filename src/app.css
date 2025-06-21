@@ -38,7 +38,7 @@
   --color-golden: #A68C4F;
   --color-onix: #1B1B1B;
 
-  --breakpoint-xs: 22rem; /* 352px */
+  --breakpoint-xs: 24rem; /* 384px */
   --breakpoint-3xl: 120rem; /* 1920px */
 
   --font-PlayFair: 'Playfair Display', serif;
