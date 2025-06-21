@@ -38,6 +38,8 @@
   --color-golden: #A68C4F;
   --color-onix: #1B1B1B;
 
+  --breakpoint-3xl: 120rem;
+
   --font-PlayFair: 'Playfair Display', serif;
   --font-Lato: 'Lato', serif;
 }
