@@ -13,7 +13,8 @@
 <main>
     <section 
         class="bg-green min-h-[calc(100vh-80px)] px-6 py-6 flex items-center
-        xs:h-[calc(100vh-100px)] xs:py-20">
+        xs:h-[calc(100vh-100px)] xs:py-20
+        sm:px-12 sm:h-[90%]">
         <Hero />
     </section>
     <!-- <section class="h-[210vh] px-24 mt-[100px] 3xl:px-96 3xl:pt-60" id="Products-section">
