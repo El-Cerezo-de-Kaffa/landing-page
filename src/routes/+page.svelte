@@ -12,8 +12,8 @@
 <Header />
 <main>
     <section 
-        class="bg-green min-h-[calc(100vh-80px)] px-6 py-6 flex items-center
-        xs:h-[calc(100vh-100px)] xs:py-20
+        class="bg-green min-h-[calc(100vh-80px)] px-6 py-7 flex items-center
+        xs:h-[calc(100vh-100px)] xs:py-12 
         sm:px-12 sm:h-[90%]">
         <Hero />
     </section>
