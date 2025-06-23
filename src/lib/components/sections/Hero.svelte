@@ -1,6 +1,5 @@
 <div 
-    class="flex flex-col w-screen overflow-hidden min-h-[75%]
-    xs:min-h-[90%]
+    class="flex flex-col w-screen overflow-hidden min-h-[80%]
     sm:flex-row">
     <div 
         class="flex flex-col flex-[2] min-w-[350px] text-white gap-4 overflow-hidden
