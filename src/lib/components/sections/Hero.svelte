@@ -62,7 +62,7 @@
                 sm:w-[190px] sm:text-[22px]
                 lg:w-[210px] lg:text-2xl
                 xl:w-[250px] xl:text-[26px]
-                2xl:w-[290px] 2xl:py-2 2xl:text-[36px]"
+                2xl:w-[290px] 2xl:text-[36px]"
             >
                 Contáctanos
             </a>
