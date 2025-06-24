@@ -4,12 +4,12 @@
 </script>
 
 <header 
-    class="bg-green px-7 w-screen h-[80px] content-center sticky top-0 left-0 right-0 z-10 border-b border-golden
-    xs:h-[100px] xs:px-8
+    class="bg-green px-7 w-svw h-[80px] content-center sticky top-0 left-0 right-0 z-10
+    xs:h-[100px] xs:px-10
     sm:h-[120px] sm:px-12
     lg:h-[140px] lg:px-16
     xl:px-20
-    2xl:px-24 
+    2xl:h-[180px] 2xl:px-28
     3xl:px-28">
     <div class="flex h-full justify-between items-center">
         <Logotipo />
