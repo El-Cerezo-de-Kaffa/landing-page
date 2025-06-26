@@ -12,13 +12,13 @@
 <Header />
 <main>
     <section 
-        class="flex bg-green min-h-[calc(100svh-80px)] py-7 px-7 justify-center
+        class="flex bg-green min-h-[calc(100svh-80px)] py-7 px-7 justify-center min-w-full
         xs:px-10 xs:min-h-[calc(100svh-100px)]
         sm:px-12 sm:py-24 sm:min-h-[calc(100svh-120px)] sm:items-center
         lg:px-16 lg:min-h-[calc(100svh-140px)]
         xl:px-20
         2xl:px-28 2xl:min-h-[calc(100svh-180px)]
-        3xl:px-28">
+        3xl:px-52 3xl:min-h-[calc(100svh-210px)]">
         <Hero />
     </section>
     <section class="" id="Products-section">

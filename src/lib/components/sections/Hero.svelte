@@ -14,7 +14,8 @@
                 sm:text-[65px]
                 lg:text-[75px]
                 xl:text-[95px]
-                2xl:text-[145px]"
+                2xl:text-[145px]
+                3xl:text-[175px]"
             >
                 Tradición,
             </h2>
@@ -24,7 +25,8 @@
                 sm:text-[60px] sm:leading-20
                 lg:text-[70px] lg:leading-24
                 xl:text-[90px]
-                2xl:text-[140px] 2xl:leading-40"
+                2xl:text-[140px] 2xl:leading-40
+                3xl:text-[170px] 3xl:leading-52"
             >
                 Sabor,
             </h2>
@@ -34,7 +36,8 @@
                 sm:text-[56px]
                 lg:text-[66px]
                 xl:text-[86px]
-                2xl:text-[136px]"
+                2xl:text-[136px]
+                3xl:text-[166px]"
             >
                 Aroma.
             </h2>
@@ -43,14 +46,16 @@
             class="flex flex-col h-auto gap-4
             sm:flex-[2]
             xs:gap-8
-            2xl:gap-12">
+            2xl:gap-12
+            3xl:gap-14">
             <p
                 class="font-Lato tracking-wide font-light leading-6 text-[16px]
                 xs:text-[20px] xs:leading-8
                 sm:text-[22px]
                 lg:text-2xl lg:leading-10
                 xl:text-[30px] xl:leading-12
-                2xl:text-[40px] 2xl:leading-16"
+                2xl:text-[40px] 2xl:leading-16
+                3xl:text-[50px]"
             >
                 Descubre el sabor de la <br />excelencia. Pide tu café hoy.
             </p>
@@ -62,7 +67,8 @@
                 sm:w-[190px] sm:text-[22px]
                 lg:w-[210px] lg:text-2xl
                 xl:w-[250px] xl:text-[26px]
-                2xl:w-[290px] 2xl:text-[36px]"
+                2xl:w-[290px] 2xl:text-[36px]
+                3xl:w-[330px] 3xl:text-[40px]"
             >
                 Contáctanos
             </a>

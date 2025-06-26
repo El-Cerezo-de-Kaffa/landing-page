@@ -10,7 +10,7 @@
     lg:h-[140px] lg:px-16
     xl:px-20
     2xl:h-[180px] 2xl:px-28
-    3xl:px-28">
+    3xl:h-[210px] 3xl:px-52">
     <div class="flex h-full justify-between items-center">
         <Logotipo />
         <Menu 
