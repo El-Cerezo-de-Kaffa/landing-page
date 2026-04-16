@@ -36,7 +36,11 @@
 		]
 	},
 	"dependencies": {
+		"@fontsource-variable/inter": "^5.2.8",
+		"@fontsource-variable/playfair-display": "^5.2.8",
+		"@fontsource/inter": "^5.2.8",
 		"@fontsource/playfair-display": "^5.2.5",
-		"@lucide/svelte": "^0.483.0"
+		"@lucide/svelte": "^0.483.0",
+		"svelte-bootstrap-icons": "^3.3.0"
 	}
 }

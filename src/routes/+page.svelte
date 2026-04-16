@@ -1,27 +1,11 @@
-<script lang="ts">
-    import {
-        Header,
-        Hero,
-        Products,
-        Advantage,
-        Gallery,
-        Footer,
-    } from "$lib"
+<script>
+import NavBar from '$lib/components/layout/NavBar.svelte';
+import Hero from '$lib/components/layout/Hero.svelte';
+import Container from '$lib/components/layout/Container.svelte';
+import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
-<Header />
-<main>
-    <section class="bg-green h-[100vh] px-24 pt-[80px] 3xl:px-96 3xl:pt-60">
-        <Hero />
-    </section>
-    <section class="h-[210vh] px-24 mt-[100px] 3xl:px-96 3xl:pt-60" id="Products-section">
-        <Products />
-    </section>
-    <section class="bg-green h-[100vh] px-24 py-[144px] 3xl:px-96 3xl:py-60" id="Advantage-section">
-        <Advantage />
-    </section>
-    <section class="h-[100vh] px-24 3xl:px-96">
-        <Gallery />
-    </section>
-</main>
+<NavBar />
+<Hero />
+<Container />
 <Footer />
