@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-8 justify-center mt-6 max-w-[270px]">
+<div class="flex flex-col gap-8 justify-center max-w-[270px]">
     <h2 class="font-sans font-bold text-[24px] text-center tracking-wider">
         El <span class="text-golden">origen</span> del café
     </h2>

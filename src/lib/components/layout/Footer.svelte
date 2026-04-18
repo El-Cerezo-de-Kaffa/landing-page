@@ -1,17 +1,20 @@
 <script>
+    import { go_to_section } from "$lib/utils/helpers/menu";
     import { Mail } from "@lucide/svelte";
     import { Facebook, Instagram, Tiktok } from "svelte-bootstrap-icons";
 </script>
 
-<footer class="bg-black text-soft-white flex flex-col items-center h-auto px-7">
-    <hr class="w-full border-t border-soft-white mt-16">
-    <div class="flex flex-col justify-center items-center gap-5 mt-5">
+<footer class="text-soft-white flex flex-col items-center h-auto px-7">
+    <hr class="w-full border-t border-soft-white mt-10">
+    <div class="flex flex-col justify-center items-center gap-4 mt-5">
         <div>
-            <img src="src/assets/logo/black-logo.png" alt="Logo">
+            <button on:click={() => {go_to_section("#main")}} class="border-0">
+                <img src="src/assets/logo/logo-removebg-preview.png" alt="Logo" width="140">
+            </button>
         </div>
-        <div class="text-center">
+        <button on:click={() => {go_to_section("#main")}} class="text-center">
             <h3 class="font-serif text-2xl w-[158px] tracking-widest">Cerezo de Kaffa</h3>
-        </div>
+        </button>
         <div class="flex mt-4 gap-6">
             <a href="https://www.facebook.com/cerezokaffa" target="_blank">
                 <Facebook class="w-7 h-7 hover:cursor-pointer hover:scale-125 transition"/>

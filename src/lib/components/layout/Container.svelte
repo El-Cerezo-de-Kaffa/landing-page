@@ -5,15 +5,14 @@
 
 </script>
 
-<main class="flex flex-col">
-    <section class="bg-soft-white flex h-[1460px] flex-col w-screen relative overflow-hidden items-center">
+<main class="bg-soft-white flex flex-col">
+    <section id="ourcoffee" class="flex h-[1450px] flex-col w-screen relative overflow-hidden items-center mb-5">
         <OurCoffee />
     </section>
-
-    <section class="bg-soft-white flex h-[920px] flex-col w-screen relative overflow-hidden items-center border-t-green border-t-[20px]">
+    <section id="history" class="flex h-auto flex-col w-screen relative overflow-hidden items-center border-t-green border-t-[20px] py-7">
         <History />
     </section>
-    <section class="flex flex-col h-[720px] w-screen px-7">
+    <section id="contact" class="bg-soft-black flex flex-col h-auto w-screen p-7 border-t-golden border-t-[20px]">
         <Contact />
     </section>
 </main>

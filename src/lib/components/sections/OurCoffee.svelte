@@ -1,3 +1,7 @@
+<script>
+    import { go_to_section } from "$lib/utils/helpers/menu";
+
+</script>
 <div class="flex flex-col gap-8 justify-center mt-6 max-w-[270px]">
     <h2 class="font-sans font-bold text-[24px] text-center w-[250px] tracking-wider">
         ¿Qué es un “<span class="text-golden">Café de Especialidad</span>”?
@@ -24,10 +28,10 @@
     <p class="text-soft-gray text-[18px]">
         Un café de especialidad se refiere a los granos del café de la más alta calidad que se seleccionan cuidadosamente.
     </p>
-    <button class="bg-green text-soft-white font-sans text-[16px] h-[52px] py-2 px-4 rounded-lg">
+    <button on:click={()=> go_to_section("#contact")} class="bg-green text-soft-white font-sans text-[16px] py-4 text-center px-4 rounded-lg">
         Quiero saber más
     </button>
 </div>
-<div class="absolute bottom-0 right-0 translate-x-[90px] h-[350px] z-0">
-    <img src="src/assets/coffee/mockup_CerezoKaffa.png" alt="mockup" class="object-cover w-full h-full">
+<div class="absolute bottom-0 right-0">
+    <img src="src/assets/coffee/mockup_CerezoKaffa.png" alt="mockup" class="object-cover w-full h-[270px]">
 </div>
