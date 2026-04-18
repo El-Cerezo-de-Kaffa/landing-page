@@ -1,6 +1,6 @@
 <script>
     import { go_to_section } from "$lib/utils/helpers/menu";
-    import CoffeSack from "../ui/CoffeSack.svelte";
+    import { CoffeeSack, logo } from "$lib";
 </script>
 
 <section id="hero" class="flex min-h-[500px] h-auto w-full relative overflow-hidden px-7">
@@ -18,11 +18,11 @@
                 </button>
             </div>
             <div class="mt-3">
-                <img src="src/assets/logo/logo-removebg-preview.png" alt="logo" width="100">
+                <img src={logo} alt="logo" width="100">
             </div>
         </div>
     </div>
     <div class="bg-green">
     </div>
-    <CoffeSack />
+    <CoffeeSack />
 </section>

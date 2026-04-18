@@ -2,6 +2,7 @@
     import { go_to_section } from "$lib/utils/helpers/menu";
     import { Mail } from "@lucide/svelte";
     import { Facebook, Instagram, Tiktok } from "svelte-bootstrap-icons";
+    import { logo } from "$lib";
 </script>
 
 <footer class="text-soft-white flex flex-col items-center h-auto px-7">
@@ -9,7 +10,7 @@
     <div class="flex flex-col justify-center items-center gap-4 mt-5">
         <div>
             <button on:click={() => {go_to_section("#main")}} class="border-0">
-                <img src="src/assets/logo/logo-removebg-preview.png" alt="Logo" width="140">
+                <img src={logo} alt="Logo" width="140">
             </button>
         </div>
         <button on:click={() => {go_to_section("#main")}} class="text-center">

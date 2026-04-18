@@ -1,6 +1,6 @@
 <script>
     import { go_to_section } from "$lib/utils/helpers/menu";
-
+    import { greencup, mockup } from "$lib";
 </script>
 <div class="flex flex-col gap-8 justify-center mt-6 max-w-[270px]">
     <h2 class="font-sans font-bold text-[24px] text-center w-[250px] tracking-wider">
@@ -11,7 +11,7 @@
     </p>
 </div>
 <div class="absolute top-0 left-0 translate-y-[200px] -translate-x-[35px]">
-    <img src="src/assets/coffee/green_cup.png" alt="cup" class="w-[330px]">
+    <img src={greencup} alt="cup" class="w-[330px]">
 </div>
 <div class="flex flex-col gap-8 justify-center mt-64 max-w-[270px]">
     <p class="text-soft-gray text-[18px]">
@@ -33,5 +33,5 @@
     </button>
 </div>
 <div class="absolute bottom-0 right-0">
-    <img src="src/assets/coffee/mockup_CerezoKaffa.png" alt="mockup" class="object-cover w-full h-[270px]">
+    <img src={mockup} alt="mockup" class="object-cover w-full h-[270px]">
 </div>

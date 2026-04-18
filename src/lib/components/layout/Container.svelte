@@ -1,7 +1,9 @@
 <script>
-    import Contact from "../sections/Contact.svelte";
-    import History from "../sections/History.svelte";
-    import OurCoffee from "../sections/OurCoffee.svelte";
+    import { 
+        ContactForm,
+        History,
+        OurCoffee 
+    } from "$lib";
 
 </script>
 
@@ -13,6 +15,6 @@
         <History />
     </section>
     <section id="contact" class="bg-soft-black flex flex-col h-auto w-screen p-7 border-t-golden border-t-[20px]">
-        <Contact />
+        <ContactForm />
     </section>
 </main>

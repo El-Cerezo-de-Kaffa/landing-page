@@ -1,3 +1,7 @@
+<script>
+    import { cafeto } from "$lib";
+</script>
+
 <div class="flex flex-col gap-8 justify-center max-w-[270px]">
     <h2 class="font-sans font-bold text-[24px] text-center tracking-wider">
         El <span class="text-golden">origen</span> del café
@@ -12,7 +16,7 @@
     </div>
 </div>
 <div class="absolute center translate-y-[280px]">
-    <img src="src/assets/coffee/cafeto.png" alt="tree" class="w-[210px]">
+    <img src={cafeto} alt="tree" class="w-[210px]">
 </div>
 <div class="absolute center translate-y-[495px]">
     <div class="w-[150px] h-5 bg-[rgba(0,0,0,0.36)] rounded-full blur-md"></div>
